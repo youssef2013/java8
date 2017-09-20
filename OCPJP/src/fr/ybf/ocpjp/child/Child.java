@@ -9,7 +9,8 @@ public class Child extends Parent{
 		Parent p = new Parent();
 		Parent pc = new Child();
 		Child c = new Child();
-		
+
+		//		System.out.println();
 		System.out.println(c.nameAtHome());
 	}
 }
