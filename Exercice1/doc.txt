@@ -1,0 +1,15 @@
+﻿Contexte fonctionnel : 
+Médiamétrie pour ses études suit le comportement média d'individus habitant au sein d'un même foyer. Ces individus sont caractérisés par un lien de parenté avec l'individu chef du foyer.
+Les besoins fonctionnels suivants ont été demandé : 
+- trouver l'individu chef dans un foyer.
+- s'il y a plusieurs chefs au sein d'un même foyer une erreur doit être remontée
+- trouver tous les chefs d'une liste de foyer
+- trier les chefs d'une liste de foyer dans l'ordre croissant de l'identifiant de leur foyer
+- trier les foyers en fonction de leur nombre d'individu décroissant. si 2 foyers ont le même nombre d'individus c'est celui qui a l'identifiant le plus petit qui sera en premier.
+- On nous a transmis une information indiquant pour chaque individu le foyer auquel il appartient, il faut pour chaque foyer déterminer la liste de ses individus  
+
+Consigne  : 
+A partir de ce contexte un modèle a été proposé (présent dans le package fr.mediametrie.exercice.model) et un certain nombre de méthodes ont été définies dans une classe utilitaire fr.mediametrie.exercice.service.FoyerHelper
+Des tests ont été conçus en utilisant ce modèle afin de vérifier le besoin fonctionnel.
+L'objectif de l'exercice est de faire passer tous les tests de la classe FoyerHelperTest. 
+Le code contenu dans le dossier src peut être modifié, pas celui de test.
